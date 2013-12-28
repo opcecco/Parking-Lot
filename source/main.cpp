@@ -38,7 +38,7 @@ bool playLevel(int currentLevel)
 			//level.enemies[0].button=Button(225,165,SPEEDUP,STICK,OFF);
 			
 			level.weather=CLOUDS_HEAVYRAIN;
-			level.player=Driver(190,160);
+			level.player=Driver(209,169);
 			
 			break;
 		

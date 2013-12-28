@@ -127,17 +127,30 @@ bool Level::run() // Called from main.cpp after level variables have been set
 	
 	int rainBgScrollX=0,rainBgScrollY=0,cloudsBgScrollX=0,cloudsBgScrollY=0;
 	
-	Collidable goal(0,0,44,30); // Create goal as an invisible Collidable
+	Collidable goal(0,0,31,15); // Create goal as an invisible Collidable
 	
 	while (lives>0 && !success) // Main level loop
 	{
 		player.update();
 		
-		for (int i=0;i<=MAX_ENEMY_SPRITE-MIN_ENEMY_SPRITE;i++)
+		if (player.x<0 || player.x>SCREEN_WIDTH-CAR_LENGTH || player.y<0 || player.y>SCREEN_HEIGHT-CAR_WIDTH) // If goes out of bounds
+		{
+			// **ADD** "out of bounds" sound (crashing?)
+			if (!Stylus.Held)
+			{
+				while (!Stylus.Held) PA_WaitForVBL();
+			}
+			while (Stylus.Held) PA_WaitForVBL();
+			
+			lives--;
+			player.draw(player.spriteNumber); // Redraw player at start
+		}
+		
+		for (int i=0;i<=MAX_ENEMY_SPRITE-MIN_ENEMY_SPRITE;i++) // Loop through all enemies on screen
 		{
 			if (enemies[i].drawn())
 			{
-				if (player.collision(enemies[i])) // If player crashes
+				if (player.collision(enemies[i])) // If player crashes into enemy
 				{
 					// **ADD** crashing sound
 					if (!Stylus.Held)

@@ -15,7 +15,7 @@ Transparent Color: Magenta
   gameoverbg : EasyBg, 256x192, Pal: gameoverbg_Pal, 85 tiles -> gameoverbg_Tiles and gameoverbg_Map
   heavycloudsbg : EasyBg, 256x256, Pal: heavycloudsbg_Pal, 109 tiles -> heavycloudsbg_Tiles and heavycloudsbg_Map
   heavyrainbg : EasyBg, 256x256, Pal: heavyrainbg_Pal, 50 tiles -> heavyrainbg_Tiles and heavyrainbg_Map
-  parkinglotbg : EasyBg, 256x192, Pal: parkinglotbg_Pal, 45 tiles -> parkinglotbg_Tiles and parkinglotbg_Map
+  parkinglotbg : EasyBg, 256x192, Pal: parkinglotbg_Pal, 48 tiles -> parkinglotbg_Tiles and parkinglotbg_Map
   rainbg : EasyBg, 256x256, Pal: rainbg_Pal, 39 tiles -> rainbg_Tiles and rainbg_Map
   topscreenbg : EasyBg, 256x192, Pal: topscreenbg_Pal, 541 tiles -> topscreenbg_Tiles and topscreenbg_Map
 
@@ -32,6 +32,6 @@ Transparent Color: Magenta
   rainbg_Pal, 3 colors
   topscreenbg_Pal, 81 colors
 
-Converted in 0 minutes and 0 seconds
+Converted in 0 minutes and 1 second
 
 Finished!

@@ -12,6 +12,6 @@ const PA_BgStruct parkinglotbg = {
 	parkinglotbg_Map,
 	{parkinglotbg_Pal},
 
-	2880,
+	3072,
 	{1536}
 };
