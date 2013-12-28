@@ -6,12 +6,12 @@ extern const char heavycloudsbg_Pal[];
 
 const PA_BgStruct heavycloudsbg = {
 	PA_BgNormal,
-	256, 256,
+	256, 192,
 
 	heavycloudsbg_Tiles,
 	heavycloudsbg_Map,
 	{heavycloudsbg_Pal},
 
-	7616,
-	{2048}
+	6016,
+	{1536}
 };
