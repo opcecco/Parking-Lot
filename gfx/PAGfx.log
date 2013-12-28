@@ -10,10 +10,10 @@ Transparent Color: Magenta
   button: 256colors, 8x240, Pal: button_Pal, -> button_Sprite
 
 8 backgrounds:
-  cloudsbg : EasyBg, 256x256, Pal: cloudsbg_Pal, 109 tiles -> cloudsbg_Tiles and cloudsbg_Map
+  cloudsbg : EasyBg, 256x256, Pal: cloudsbg_Pal, 98 tiles -> cloudsbg_Tiles and cloudsbg_Map
   congratsbg : EasyBg, 256x192, Pal: congratsbg_Pal, 131 tiles -> congratsbg_Tiles and congratsbg_Map
   gameoverbg : EasyBg, 256x192, Pal: gameoverbg_Pal, 85 tiles -> gameoverbg_Tiles and gameoverbg_Map
-  heavycloudsbg : EasyBg, 256x256, Pal: heavycloudsbg_Pal, 109 tiles -> heavycloudsbg_Tiles and heavycloudsbg_Map
+  heavycloudsbg : EasyBg, 256x256, Pal: heavycloudsbg_Pal, 119 tiles -> heavycloudsbg_Tiles and heavycloudsbg_Map
   heavyrainbg : EasyBg, 256x256, Pal: heavyrainbg_Pal, 50 tiles -> heavyrainbg_Tiles and heavyrainbg_Map
   parkinglotbg : EasyBg, 256x192, Pal: parkinglotbg_Pal, 48 tiles -> parkinglotbg_Tiles and parkinglotbg_Map
   rainbg : EasyBg, 256x256, Pal: rainbg_Pal, 39 tiles -> rainbg_Tiles and rainbg_Map
@@ -22,11 +22,11 @@ Transparent Color: Magenta
 11 palettes:
   player_Pal, 6 colors
   enemy_Pal, 18 colors
-  button_Pal, 18 colors
-  cloudsbg_Pal, 3 colors
+  button_Pal, 24 colors
+  cloudsbg_Pal, 9 colors
   congratsbg_Pal, 18 colors
   gameoverbg_Pal, 19 colors
-  heavycloudsbg_Pal, 3 colors
+  heavycloudsbg_Pal, 2 colors
   heavyrainbg_Pal, 3 colors
   parkinglotbg_Pal, 6 colors
   rainbg_Pal, 3 colors

@@ -12,6 +12,6 @@ const PA_BgStruct heavycloudsbg = {
 	heavycloudsbg_Map,
 	{heavycloudsbg_Pal},
 
-	6976,
+	7616,
 	{2048}
 };

@@ -30,7 +30,7 @@ bool playLevel(int currentLevel)
 		
 		case 1:
 			
-			level.enemies[0]=Enemy(RANDOM_COLOR,50,110,HORIZONTAL,BOUNCES,5,222,-2);
+			level.enemies[0]=Enemy(WHITE,50,110,HORIZONTAL,BOUNCES,5,222,-2);
 			level.enemies[1]=Enemy(RANDOM_COLOR,200,60,HORIZONTAL,BOUNCES,5,222,4);
 			level.enemies[2]=Enemy(RANDOM_COLOR,85,20,VERTICAL,BOUNCES,5,155,-3);
 			level.enemies[3]=Enemy(RANDOM_COLOR,150,58,VERTICAL,BOUNCES,5,155,2);

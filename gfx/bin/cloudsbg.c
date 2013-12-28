@@ -12,6 +12,6 @@ const PA_BgStruct cloudsbg = {
 	cloudsbg_Map,
 	{cloudsbg_Pal},
 
-	6976,
+	6272,
 	{2048}
 };
