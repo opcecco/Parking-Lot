@@ -20,8 +20,8 @@ Transparent Color: Magenta
   topscreenbg : EasyBg, 256x192, Pal: topscreenbg_Pal, 541 tiles -> topscreenbg_Tiles and topscreenbg_Map
 
 11 palettes:
-  player_Pal, 4 colors
-  enemy_Pal, 17 colors
+  player_Pal, 6 colors
+  enemy_Pal, 18 colors
   button_Pal, 18 colors
   cloudsbg_Pal, 3 colors
   congratsbg_Pal, 18 colors
@@ -32,6 +32,6 @@ Transparent Color: Magenta
   rainbg_Pal, 3 colors
   topscreenbg_Pal, 81 colors
 
-Converted in 0 minutes and 1 second
+Converted in 0 minutes and 0 seconds
 
 Finished!
